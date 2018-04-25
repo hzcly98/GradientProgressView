@@ -13,6 +13,8 @@
 		0D22E52B1FA1C5DA0054A2F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D22E52A1FA1C5DA0054A2F2 /* Assets.xcassets */; };
 		0D22E52E1FA1C5DA0054A2F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D22E52C1FA1C5DA0054A2F2 /* LaunchScreen.storyboard */; };
 		0D22E5311FA1C5DA0054A2F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D22E5301FA1C5DA0054A2F2 /* main.m */; };
+		0D34D67D20901FDF00E67EF9 /* GradientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D34D67C20901FDF00E67EF9 /* GradientViewController.m */; };
+		0D34D680209028EB00E67EF9 /* GradientProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D34D67F209028EB00E67EF9 /* GradientProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		0D22E52D1FA1C5DA0054A2F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D22E52F1FA1C5DA0054A2F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D22E5301FA1C5DA0054A2F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0D34D67B20901FDF00E67EF9 /* GradientViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GradientViewController.h; sourceTree = "<group>"; };
+		0D34D67C20901FDF00E67EF9 /* GradientViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradientViewController.m; sourceTree = "<group>"; };
+		0D34D67E209028EB00E67EF9 /* GradientProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GradientProgressView.h; sourceTree = "<group>"; };
+		0D34D67F209028EB00E67EF9 /* GradientProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradientProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				0D22E5221FA1C5DA0054A2F2 /* AppDelegate.m */,
 				0D22E5241FA1C5DA0054A2F2 /* ViewController.h */,
 				0D22E5251FA1C5DA0054A2F2 /* ViewController.m */,
+				0D34D67B20901FDF00E67EF9 /* GradientViewController.h */,
+				0D34D67C20901FDF00E67EF9 /* GradientViewController.m */,
+				0D34D67E209028EB00E67EF9 /* GradientProgressView.h */,
+				0D34D67F209028EB00E67EF9 /* GradientProgressView.m */,
 				0D22E5271FA1C5DA0054A2F2 /* Main.storyboard */,
 				0D22E52A1FA1C5DA0054A2F2 /* Assets.xcassets */,
 				0D22E52C1FA1C5DA0054A2F2 /* LaunchScreen.storyboard */,
@@ -142,6 +152,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D34D67D20901FDF00E67EF9 /* GradientViewController.m in Sources */,
+				0D34D680209028EB00E67EF9 /* GradientProgressView.m in Sources */,
 				0D22E5261FA1C5DA0054A2F2 /* ViewController.m in Sources */,
 				0D22E5311FA1C5DA0054A2F2 /* main.m in Sources */,
 				0D22E5231FA1C5DA0054A2F2 /* AppDelegate.m in Sources */,
